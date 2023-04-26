@@ -1,0 +1,101 @@
+
+
+body{
+  width: 50%;
+  margin: 0 auto;
+  background-color: #6a0b2f;
+}
+
+to{
+  color: black;
+}
+  header{
+    text-align:center;
+
+  }
+
+
+
+
+  header h1{
+    font-size: 70px;
+    color: #0b020aee;
+    font-weight :500;
+  font-style: italic;
+  }
+  input{
+    font-size:20px;
+    color:rgba(1, 0, 2, 0.858);
+    width:100%;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid #2c3e60;
+    padding:5px;
+  }
+
+.task{
+ background-color:#020910;
+ padding:15px;
+ margin: 5px;
+ overflow-x:hidden ;
+ border-radius: 5px;
+ cursor: pointer;
+ font-style: italic;
+
+
+}
+
+.task span{
+  color:hsl(255, 8%, 81%);
+  font-weight: 700;
+}
+
+.icon{
+  float:right;
+  margin-right: 20px;
+}
+article{
+  display:grid ;
+}
+.edit-todo{
+width:85%
+font-size 16px;
+color:#220c9e;
+background-color: transparent;
+border: none;
+border-bottom:1px solid #FFFFFF;
+}
+
+  .button{
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 14px;
+    color: #6c6777;
+    background-color: #fff;
+    border:none;
+    cursor:pointer;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 15px;
+
+
+  }
+.button.selected{
+color: #2309a4;
+background-color:hsl(205, 85%, 48%) ;
+font-weight: 500;
+color: #020910;
+color: black;
+}
+
+.button.clear{
+  float: right;
+  color: #fff;
+  background-color: hsl(0, 69%, 50%);
+  width:170px ;
+  
+}
+
+
+
+
